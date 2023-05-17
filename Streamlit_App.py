@@ -11,11 +11,11 @@ import streamlit as st
 import pickle
 
 # Load the trained model
-with open('C:/Users/HP/Documents/Diabetes Risk Prediction/model.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load the one-hot encoded mapping
-with open('C:/Users/HP/Documents/Diabetes Risk Prediction/pre-process.pkl', 'rb') as file:
+with open('pre-process.pkl', 'rb') as file:
     ohe_process = pickle.load(file)
     ohe_process = ohe_process.drop('class_Negative', axis='columns')
     ohe_process = ohe_process.drop('class_Positive', axis='columns')
