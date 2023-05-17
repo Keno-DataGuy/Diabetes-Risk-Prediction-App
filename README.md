@@ -11,7 +11,7 @@ To accurately predict the risk of diabetes just from analysis the symptoms exper
 
 ### Deliverable:
 A web app that end users can utilise to predict the risk of diabetes using a random forest model on the backend.
-[Check it out!](https://keno-dataguy-diabetes-prediction-app-streamlit-app-yehzy9.streamlit.app)
+[Check it out!](https://keno-dataguy-diabetes-risk-prediction-app-streamlit-app-5vzx9p.streamlit.app)
 ![alt text](https://github.com/Keno-DataGuy/Diabetes-Prediction-App/blob/main/Streamlit_App.jpg)
 
 ### Results and Model Evaluation
