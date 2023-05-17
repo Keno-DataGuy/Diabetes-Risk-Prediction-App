@@ -3,4 +3,3 @@ streamlit
 scipy
 sklearn
 IPython
-pickle.py
