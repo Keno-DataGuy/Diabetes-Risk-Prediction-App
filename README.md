@@ -1,4 +1,4 @@
-# Diabetes-Prediction-App
+# Diabetes-Risk-Prediction-App
 
 ### Project Purpose:
 To demonstrate a full ML project from scratch to deployment to a web app
