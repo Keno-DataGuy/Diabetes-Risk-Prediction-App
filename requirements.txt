@@ -3,4 +3,4 @@ streamlit
 scipy
 sklearn
 IPython
-pickle
+pickle.py
