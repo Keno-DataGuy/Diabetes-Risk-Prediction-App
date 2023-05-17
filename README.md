@@ -16,4 +16,5 @@ A web app that end users can utilise to predict the risk of diabetes using a ran
 ### Results and Model Evaluation
 From a business/medical perspective, we want to avoid predicting patient's at who are at risk as not at risk, so Precision will be our best measure for the model. This will ensure that we are accurately predicting patients at risk of diabetes (precision).
 
-Patients can utilise this app to check if they are risk of diabetes
+Patients can utilise this app to check if they are risk of diabetes. Medical experts can also utilise this to determine if patients are at risk.
+
