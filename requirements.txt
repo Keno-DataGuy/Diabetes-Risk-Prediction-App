@@ -1,5 +1,0 @@
-panda
-streamlit
-scipy
-sklearn
-IPython
