@@ -40,11 +40,15 @@ def main():
 
     # Collect user inputs
     input_data = {}
+   
+    with st.container():
+        st.write("Patient Bio data")
+        # input fields
+        input_data['Age'] = st.number_input("Enter your age:", min_value=18, max_value=100)
+        input_data['Gender'] = st.selectbox("Select your gender:", ['Male', 'Female'])
     
-    # input fields
-    input_data['Age'] = st.number_input("Enter your age:", min_value=18, max_value=100)
     
-    input_data['Gender'] = st.selectbox("Select your gender:", ['Male', 'Female'])
+    
     input_data['Polyuria'] = st.selectbox("Frequent Urination with passage of large volume (polyuria):", ['No', 'Yes'])
     input_data['Polydipsia'] = st.selectbox("Excessive thirst (Polydipsia):", ['No', 'Yes'])
     input_data['sudden weight loss'] = st.selectbox("Sudden weight loss:", ['No', 'Yes'])
