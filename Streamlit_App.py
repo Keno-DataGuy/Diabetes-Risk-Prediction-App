@@ -36,7 +36,7 @@ def preprocess_input(input_data):
     return df_encoded
 
 def main():
-    st.title("Early Stage Diabetes Risk Prediction App :hospital: :male-doctor:")
+    st.title("Diabetes Risk Prediction App :hospital: :male-doctor:")
 
     # Collect user inputs
     input_data = {}
@@ -71,7 +71,7 @@ def main():
         
         # Display the prediction to the user
         if prediction == 0:
-            st.success("The Patient is not risk for Diabetes")
+            st.success("The Patient is not at risk for Diabetes")
         else:
             st.success("The Patient is at risk for Diabetes")
         
