@@ -48,21 +48,22 @@ def main():
         input_data['Gender'] = st.selectbox("Select your gender:", ['Male', 'Female'])
     
     
-    
-    input_data['Polyuria'] = st.selectbox("Frequent Urination with passage of large volume (polyuria):", ['No', 'Yes'])
-    input_data['Polydipsia'] = st.selectbox("Excessive thirst (Polydipsia):", ['No', 'Yes'])
-    input_data['sudden weight loss'] = st.selectbox("Sudden weight loss:", ['No', 'Yes'])
-    input_data['weakness'] = st.selectbox(" Signs of Weakness:", ['No', 'Yes'])
-    input_data['Polyphagia'] = st.selectbox(" Consumption of excessive amounts of food (Polyphagia):", ['No', 'Yes'])
-    input_data['Genital thrush'] = st.selectbox(" Signs of yeast infection (Genital thrush):", ['No', 'Yes'])
-    input_data['visual blurring'] = st.selectbox(" Visual blurring:", ['No', 'Yes'])
-    input_data['Itching'] = st.selectbox(" Experiences itching:", ['No', 'Yes'])
-    input_data['Irritability'] = st.selectbox(" Experiences irritability:", ['No', 'Yes'])
-    input_data['delayed healing'] = st.selectbox(" Symptoms of delayed healing:", ['No', 'Yes'])
-    input_data['partial paresis'] = st.selectbox(" partial weaking of muscles (partial paresis):", ['No', 'Yes'])
-    input_data['muscle stiffness'] = st.selectbox(" Symptoms of muscle stiffness:", ['No', 'Yes'])
-    input_data['Alopecia'] = st.selectbox(" Hair loss (alopecia):", ['No', 'Yes'])
-    input_data['Obesity'] = st.selectbox("Obesity:", ['No', 'Yes'])
+    with st.container():
+        st.write("Has Patient experienced any of these")
+        input_data['Polyuria'] = st.selectbox("Frequent Urination with passage of large volume (polyuria):", ['No', 'Yes'])
+        input_data['Polydipsia'] = st.selectbox("Excessive thirst (Polydipsia):", ['No', 'Yes'])
+        input_data['sudden weight loss'] = st.selectbox("Sudden weight loss:", ['No', 'Yes'])
+        input_data['weakness'] = st.selectbox(" Signs of Weakness:", ['No', 'Yes'])
+        input_data['Polyphagia'] = st.selectbox(" Consumption of excessive amounts of food (Polyphagia):", ['No', 'Yes'])
+        input_data['Genital thrush'] = st.selectbox(" Signs of yeast infection (Genital thrush):", ['No', 'Yes'])
+        input_data['visual blurring'] = st.selectbox(" Visual blurring:", ['No', 'Yes'])
+        input_data['Itching'] = st.selectbox(" Experiences itching:", ['No', 'Yes'])
+        input_data['Irritability'] = st.selectbox(" Experiences irritability:", ['No', 'Yes'])
+        input_data['delayed healing'] = st.selectbox(" Symptoms of delayed healing:", ['No', 'Yes'])
+        input_data['partial paresis'] = st.selectbox(" partial weaking of muscles (partial paresis):", ['No', 'Yes'])
+        input_data['muscle stiffness'] = st.selectbox(" Symptoms of muscle stiffness:", ['No', 'Yes'])
+        input_data['Alopecia'] = st.selectbox(" Hair loss (alopecia):", ['No', 'Yes'])
+        input_data['Obesity'] = st.selectbox("Obesity:", ['No', 'Yes'])
 
 
     # Preprocess the user inputs
