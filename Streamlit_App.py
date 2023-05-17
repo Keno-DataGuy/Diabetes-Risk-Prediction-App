@@ -47,6 +47,7 @@ def main():
         input_data['Age'] = st.number_input("Enter your age:", min_value=18, max_value=100)
         input_data['Gender'] = st.selectbox("Select your gender:", ['Male', 'Female'])
     
+    with st.container()
     
     with st.container():
         st.write("Has Patient experienced any of these")
